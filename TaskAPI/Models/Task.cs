@@ -9,9 +9,6 @@ namespace TaskAPI.Models
         public bool Completed { get; set; }
         public DateTime CreationDate { get; set; }
         public DateTime DueDate { get; set; }
-        // public string Status { get; set; }
-        // public string Priority { get; set; }
-        // public string Category { get; set; }
         public DateTime Reminder { get; set; }
 
     }
