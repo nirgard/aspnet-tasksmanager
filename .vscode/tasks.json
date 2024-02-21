@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/aspnet-taskmanager.sln",
+                "${workspaceFolder}/aspnet-tasksmanager.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/aspnet-taskmanager.sln",
+                "${workspaceFolder}/aspnet-tasksmanager.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/aspnet-taskmanager.sln"
+                "${workspaceFolder}/aspnet-tasksmanager.sln"
             ],
             "problemMatcher": "$msCompile"
         }
